@@ -239,10 +239,10 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
 					Isa sa mga pangunahin at pinakamatagal na hinaing ng mga tsuper ay ang hindi abot-kayang presyo ng bagong modelong jeepney. Kung kaya’t nagdisenyo ang mga local manufacturers tulad ng Francisco Motors ng bagong modelo ng jeepney na higit na mas mura sa presyong Php985,000 kumpara sa idineklarang Php2.8 milyon na presyo ng mga imported modern jeepney units. Ang mga lokal na bagong modelong jeepney na ito ay kahawig ng itsura ng mga tradisyonal na dyip, maka-kalikasan dahil gumagamit ito ng elektrisidad, komportable dahil may aircon, mayroon ding daanan para sa mga pasaherong naka-wheelchair. Bukod pa rito ay Php50,000 lang ang kinakailangang downpayment na may 0% interes na higit na makakatulong sa mga tsuper at operator na namomoblema sa pambayad.
 				</p>
 				<p class="text-lg">
-					Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-extend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper.
+					Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-extend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. 
 				</p>
 				<p class="text-lg">
-
+					Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper. Kung abala nama’y maaari ring mag-donate sa mga transport groups tuwing nagsasagawa ng strike dahil inaalay nila ang kanilang kita upang ipaalam ang kanilang mga hinaing. Maaari mo ring gamitin ang #NoToJeepneyPhaseout sa social media upang mapalakas ang tinig ng mga tsuper. Makapangyarihan ang boses nating mga indibidwal, kaya gamitin natin ito upang tulungan ang mga tsuper na naghihirap dahil sa PUVMP.
 				</p>
 				
 			</div>
