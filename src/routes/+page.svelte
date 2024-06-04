@@ -69,22 +69,24 @@
 		}
 	}
 	@keyframes animate_jeep {
-	0% {
-        transform: translateX(-1100%) translateY(0);
-    }
-    25% {
-        transform: translateX(-233%) translateY(30%);
-    }
-    50% {
-        transform: translateX(0%) translateY(0);
-    }
-    75% {
-        transform: translateX(233%) translateY(-30%);
-    }
-    100% {
-        transform: translateX(1100%) translateY(0);
-    }
-}
+		0% {
+			transform: translateX(-1100%) translateY(0);
+		}
+		25% {
+			transform: translateX(-233%) translateY(30%);
+		}
+		50% {
+			transform: translateX(0%) translateY(0);
+		}
+		75% {
+			transform: translateX(233%) translateY(-30%);
+		}
+		100% {
+			transform: translateX(1100%) translateY(0);
+		}
+		
+	}
+
 	
 </style>
 <head>
