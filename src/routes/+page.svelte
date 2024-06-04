@@ -258,7 +258,7 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
             <div class="p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl flex flex-col gap-2">
                 <p class="text-lg">Madalas nating marinig na</p>
                 <p class="text-3xl text-blue-600"><strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong></p>
-                <p class="text-lg">Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u>sila ang tagapagmaneho ng byaheng patungo sa inaasam na modernisasyon.</u></p>
+                <p class="text-lg">Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u>sila ang tagapagmaneho ng byaheng patungo sa inaasam nating modernisasyon.</u></p>
             </div>
         </div>
 	</section>
