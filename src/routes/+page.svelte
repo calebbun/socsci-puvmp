@@ -272,7 +272,7 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
 		</section>
 		<footer style="position:relative">
 			<div class="pt-3">
-				<p class="text-center text-2xl">Suportahan ang ating mga Tsuper sa pamamagitan ng:</p>
+				<p class="text-center text-2xl">Suportahan ang ating mga tsuper sa pamamagitan ng:</p>
 			</div>
 			<div class="flex justify-center items-center gap-10 mb-20">
 				<a target="_blank" href="https://www.facebook.com/pistonphl" class="text-2xl hover:underline text-blue-700">FOLLOW PISTON'S FB PAGE</a>
