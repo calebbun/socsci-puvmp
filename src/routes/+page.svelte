@@ -97,7 +97,7 @@
 
 <main>
     <section
-    class="relative w-full "
+    class="relative w-full h-[screen/3]"
 	>
         <video class= "absolute w-full h-full object-cover -z-10"muted autoplay loop playsinline disablepictureinpicture>
             <source src="baguiodrive.mp4" type="video/mp4" />
@@ -271,7 +271,7 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
             <a target="_blank" href="https://donate.pistonph.com" class="text-2xl text-blue-500 hover:underline">DONATE TO PISTON</a>
         </div>
         <div>
-            <p class="bg-blue-600 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
+            <p class="bg-blue-800 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
         </div>
 		<div class="relative overflow-hidden min-h-[6vh] flex justify-center items-center bg-[#355463]">
             <div class="absolute h-[3vh] w-[10vh] jeep ">
