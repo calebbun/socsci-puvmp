@@ -3,6 +3,8 @@
     import jeep1 from '$lib/assets/jeep1.jpg';
 	import jeepmove from '$lib/assets/jeepmove.png';
 	import wheel from '$lib/assets/wheel.png';
+	import sun from '$lib/assets/sun.png';
+	import sun2 from '$lib/assets/sun2.png';
     import * as HoverCard from '$lib/components/ui/hover-card/index.ts';
 	import * as Dialog from '$lib/components/ui/dialog/index.ts';
 </script>
@@ -223,61 +225,71 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
             </div>
         </div>
 	</section>
-    <section class="pb-10 mb-[1px] mx-auto flex min-h-full max-w-6xl items-center gap-8 px-4 py-20 md:grid md:min-h-screen md:gap-16">
-        <div class="p-2 flex flex-col gap-2">
-            <h1
-				class= "text-4xl tracking-tight text-blue-500 drop-shadow-lg dark:text-orange-500">
-                Tunay na epektibo ang mga nagdaang tigil-pasada dahil ...
-            </h1>
-            <div class="flex flex-col p-5 bg-secondary rounded-lg gap-4">
-				<p class="text-lg">Maraming naging makabuluhang epekto ang mga naisagawang tigil pasada/ transport strike sa pampublikong diskurso pati na rin sa pagsasaayos at pagrebisa ng mga polisiya ng programang JMP. Isa na rito ay ang pagbibigay ng palugit sa mga tsuper para sa konsolidasyon ng prangkisa o franchise consolidation, isa sa mga pangunahing hakbang upang maisakatuparan ang programang JMP. Sa tulong ng mga tigil pasada/ transport strike ay naihayag ng mga tsuper ang kanilang hinaing ukol sa napakamahal na presyo ng isang modern jeepney unit na nagkakahalagang humigit-kumulang Php2.8 milyon, at ng mga dagdag na bayarin na kailangan upang makasali sa isang kooperatiba. Mula nang idineklara ang JMP noong 2017 ay nagkaroon na ng walong (8) beses na extension upang makasunod ang mga tsuper sa franchise consolidation at upang mabigyan ng dagdag oras ang gobyerno na higit na masuri ang mga kasalukuyang alituntunin ng JMP.
-				</p>
-				<p class="text-lg">
-					Dinagdagan din ng Department of Transportation (DOTr) ang ibibigay na equity subsidy para sa mga tsuper at operators na bahagi ng isang kooperatiba upang magsilbing loan sa pagbili ng bagong modelong jeepney. Mula sa Php80,000 para sa isang modern PUV (mPUV) classes 1-4 noong 2018 ay itinaas na sa Php210,000 para sa class 1 at Php280,000 para sa classes 2-4 noong 2023 ang subsidiyang inaalok bilang suporta sa mga tsuper at operators sa nakikilahok sa PUVMP.
-				</p>
-				<p class="text-lg">
-					Isa sa mga pangunahin at pinakamatagal na hinaing ng mga tsuper ay ang hindi abot-kayang presyo ng bagong modelong jeepney. Kung kaya’t nagdisenyo ang mga local manufacturers tulad ng Francisco Motors ng bagong modelo ng jeepney na higit na mas mura sa presyong Php985,000 kumpara sa idineklarang Php2.8 milyon na presyo ng mga imported modern jeepney units. Ang mga lokal na bagong modelong jeepney na ito ay kahawig ng itsura ng mga tradisyonal na dyip, maka-kalikasan dahil gumagamit ito ng elektrisidad, komportable dahil may aircon, mayroon ding daanan para sa mga pasaherong naka-wheelchair. Bukod pa rito ay Php50,000 lang ang kinakailangang downpayment na may 0% interes na higit na makakatulong sa mga tsuper at operator na namomoblema sa pambayad.
-				</p>
-				<p class="text-lg">
-					Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-extend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. 
-				</p>
-				<p class="text-lg">
-					Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper. Kung abala nama’y maaari ring mag-donate sa mga transport groups tuwing nagsasagawa ng strike dahil inaalay nila ang kanilang kita upang ipaalam ang kanilang mga hinaing. Maaari mo ring gamitin ang #NoToJeepneyPhaseout sa social media upang mapalakas ang tinig ng mga tsuper. Makapangyarihan ang boses nating mga indibidwal, kaya gamitin natin ito upang tulungan ang mga tsuper na naghihirap dahil sa PUVMP.
-				</p>
-				
+	<div class="bg-gradient-radial-bottom from-transparent to-orange-400">
+		<section class="pb-10 mb-[1px] mx-auto flex min-h-full max-w-6xl items-center gap-8 px-4 py-20 md:grid md:min-h-screen md:gap-16">
+			<div class="p-2 flex flex-col gap-2">
+				<h1
+					class="font-jeepney text-8xl font-extrabold tracking-tight text-white drop-shadow-md dark:text-green-400"
+				>
+					03
+				</h1>
+				<h1
+					class= "text-4xl tracking-tight text-white drop-shadow-lg dark:text-orange-500">
+					Tunay na epektibo ang mga nagdaang tigil-pasada dahil ...
+				</h1>
+				<div class="flex flex-col p-5 bg-secondary rounded-lg gap-4">
+					<p class="text-lg">Maraming naging makabuluhang epekto ang mga naisagawang tigil pasada/ transport strike sa pampublikong diskurso pati na rin sa pagsasaayos at pagrebisa ng mga polisiya ng programang JMP. Isa na rito ay ang pagbibigay ng palugit sa mga tsuper para sa konsolidasyon ng prangkisa o franchise consolidation, isa sa mga pangunahing hakbang upang maisakatuparan ang programang JMP. Sa tulong ng mga tigil pasada/ transport strike ay naihayag ng mga tsuper ang kanilang hinaing ukol sa napakamahal na presyo ng isang modern jeepney unit na nagkakahalagang humigit-kumulang Php2.8 milyon, at ng mga dagdag na bayarin na kailangan upang makasali sa isang kooperatiba. Mula nang idineklara ang JMP noong 2017 ay nagkaroon na ng walong (8) beses na extension upang makasunod ang mga tsuper sa franchise consolidation at upang mabigyan ng dagdag oras ang gobyerno na higit na masuri ang mga kasalukuyang alituntunin ng JMP.
+					</p>
+					<p class="text-lg">
+						Dinagdagan din ng Department of Transportation (DOTr) ang ibibigay na equity subsidy para sa mga tsuper at operators na bahagi ng isang kooperatiba upang magsilbing loan sa pagbili ng bagong modelong jeepney. Mula sa Php80,000 para sa isang modern PUV (mPUV) classes 1-4 noong 2018 ay itinaas na sa Php210,000 para sa class 1 at Php280,000 para sa classes 2-4 noong 2023 ang subsidiyang inaalok bilang suporta sa mga tsuper at operators sa nakikilahok sa PUVMP.
+					</p>
+					<p class="text-lg">
+						Isa sa mga pangunahin at pinakamatagal na hinaing ng mga tsuper ay ang hindi abot-kayang presyo ng bagong modelong jeepney. Kung kaya’t nagdisenyo ang mga local manufacturers tulad ng Francisco Motors ng bagong modelo ng jeepney na higit na mas mura sa presyong Php985,000 kumpara sa idineklarang Php2.8 milyon na presyo ng mga imported modern jeepney units. Ang mga lokal na bagong modelong jeepney na ito ay kahawig ng itsura ng mga tradisyonal na dyip, maka-kalikasan dahil gumagamit ito ng elektrisidad, komportable dahil may aircon, mayroon ding daanan para sa mga pasaherong naka-wheelchair. Bukod pa rito ay Php50,000 lang ang kinakailangang downpayment na may 0% interes na higit na makakatulong sa mga tsuper at operator na namomoblema sa pambayad.
+					</p>
+					<p class="text-lg">
+						Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-extend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. 
+					</p>
+					<p class="text-lg">
+						Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper. Kung abala nama’y maaari ring mag-donate sa mga transport groups tuwing nagsasagawa ng strike dahil inaalay nila ang kanilang kita upang ipaalam ang kanilang mga hinaing. Maaari mo ring gamitin ang #NoToJeepneyPhaseout sa social media upang mapalakas ang tinig ng mga tsuper. Makapangyarihan ang boses nating mga indibidwal, kaya gamitin natin ito upang tulungan ang mga tsuper na naghihirap dahil sa PUVMP.
+					</p>
+					
+				</div>
 			</div>
-        </div>
-    </section>
-	
+		</section>
 
-    <section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 pb-6">
-        <div class="w-[40vh] flex flex-shrink-0 justify-center align-center">
-            <img src={wheel} alt="cartoon wheel spinning" class="w-3/4 animate-spin-slow"> 
-        </div>
-        <div class="flex-grow h-[100%] w-[80%]">
-            <div class="p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl flex flex-col gap-2">
-                <p class="text-lg">Madalas nating marinig na</p>
-                <p class="text-3xl text-blue-600"><strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong></p>
-                <p class="text-lg">Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u>sila ang tagapagmaneho ng byaheng patungo sa inaasam nating modernisasyon.</u></p>
-            </div>
-        </div>
-	</section>
-	<footer>
-        <div>
-            <p class="text-center text-2xl">Suportahan ang ating mga Tsuper sa pamamagitan ng:</p>
-        </div>
-        <div class="flex justify-center items-center gap-10 mb-10">
-            <a target="_blank" href="https://www.facebook.com/pistonphl" class="text-2xl hover:underline text-blue-500">FOLLOW PISTON'S FB PAGE</a>
-            <a target="_blank" href="https://donate.pistonph.com" class="text-2xl text-blue-500 hover:underline">DONATE TO PISTON</a>
-        </div>
-        <div>
-            <p class="bg-blue-800 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
-        </div>
-		<div class="relative overflow-hidden min-h-[6vh] flex justify-center items-center bg-[#355463]">
-            <div class="absolute h-[3vh] w-[10vh] jeep ">
-                <img src={jeepmove} alt="jeep design side view"> 
-            </div>
-            <div class="road"></div>
-        </div>
-    </footer>
+
+		<section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 pb-6">
+			<div class="w-[40vh] flex flex-shrink-0 justify-center align-center">
+				<img src={wheel} alt="cartoon wheel spinning" class="w-3/4 animate-spin-slow"> 
+			</div>
+			<div class="flex-grow h-[100%] w-[80%]">
+				<div class="p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl flex flex-col gap-2">
+					<p class="text-lg">Madalas nating marinig na</p>
+					<p class="text-3xl text-blue-600"><strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong></p>
+					<p class="text-lg">Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u>sila ang tagapagmaneho ng byaheng patungo sa inaasam nating modernisasyon.</u></p>
+				</div>
+			</div>
+		</section>
+		<footer style="position:relative">
+			<div class="pt-3">
+				<p class="text-center text-2xl">Suportahan ang ating mga Tsuper sa pamamagitan ng:</p>
+			</div>
+			<div class="flex justify-center items-center gap-10 mb-20">
+				<a target="_blank" href="https://www.facebook.com/pistonphl" class="text-2xl hover:underline text-blue-700">FOLLOW PISTON'S FB PAGE</a>
+				<a target="_blank" href="https://donate.pistonph.com" class="text-2xl text-blue-700 hover:underline">DONATE TO PISTON</a>
+			</div>
+			<div class="w-[22vh] flex flex-shrink-0 justify-center align-center" style="position: absolute; bottom: 10%; left: 50vw; transform: translateX(-50%)">
+				<img src={sun2} alt="cartoon sun spinning" class="z-0 w-3/4 animate-spin-slower"> 
+			</div>
+			<div class="z-10" style="position: relative;">
+				<p class=" bg-blue-700 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
+			</div>
+			<div class="relative overflow-hidden min-h-[6vh] flex justify-center items-center bg-[#355463]">
+				<div class="absolute h-[3vh] w-[10vh] jeep ">
+					<img src={jeepmove} alt="jeep design side view"> 
+				</div>
+				<div class="road"></div>
+			</div>
+		</footer>
+	</div>
 </main>
