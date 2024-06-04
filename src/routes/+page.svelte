@@ -85,6 +85,15 @@
 }
 	
 </style>
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
 
 <main>
     <section
@@ -133,11 +142,11 @@
 		<p
 			class="text-justify z-20 mx-16 max-w-[850px] text-2xl font-medium leading-tight hover:drop-shadow-2xl md:text-3xl [&:not(:first-child)]:mt-6"
 		>
-        Noong 2014 naglabas ng pag-aaral ang Japan International Cooperation Agency (JICA) na napag-alamang nakakaltasan tayo ng P2.4 bilyon kada araw dahil sa trapiko (JICA). Bilang pagtugon sa suliraning ito, noong June 19, 2017, naglabas ng bagong programa ang Department of Transportation o DOTr na naglalayong pagandahin at gawing mas moderno ang mga pampublikong sasakyan at agapan ang lumalaking problema sa trapik. Ang programang ito’y mas kilala bilang Jeepney Modernization Program (JMP) na sumasailalim sa  
+        Noong 2014 naglabas ng pag-aaral ang Japan International Cooperation Agency (JICA) na napag-alamang nakakaltasan tayo ng P2.4 bilyon kada araw dahil sa trapiko. Bilang pagtugon sa suliraning ito, noong June 19, 2017, naglabas ng bagong programa ang Department of Transportation o DOTr na naglalayong pagandahin at gawing mas moderno ang mga pampublikong sasakyan at agapan ang lumalaking problema sa trapik. Ang programang ito’y mas kilala bilang Jeepney Modernization Program (JMP) na sumasailalim sa  
 
 			<span
 				class="font-bold underline decoration-primary/80 decoration-4 duration-200 ease-in hover:text-primary hover:decoration-transparent"
-				>Public Utility Vehicle  Modernization Program o PUVMP (LTFRB)
+				>Public Utility Vehicle  Modernization Program o PUVMP.
             </span>
 		</p>
 	</section>
@@ -152,7 +161,7 @@
                     01
                 </h1>
                 <h1 class="font-jeep text-7xl uppercase tracking-tight text-blue-500 drop-shadow-lg">
-                    Overview
+                    PUVMP
                 </h1>
                 <p class="mt-6 text-lg">
                         Ayon sa LTFRB, layunin ng programang ito na gawing 
@@ -195,14 +204,14 @@
 				<h1
 					class="font-jeep text-7xl uppercase tracking-tight text-blue-500 drop-shadow-lg dark:text-orange-500"
 				>
-					Problem
+					HINAING
 				</h1>
 			</div>
 			<div class="flex auto-rows-auto grid-cols-4 flex-col gap-8 md:grid">
 				<div
 					class="col-span-4 row-span-2 rounded-3xl bg-secondary p-8 drop-shadow-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl"
 				>
-					<h2 class="scroll-m-20 pb-2 text-3xl font-bold tracking-tight">Background</h2>
+					<!-- <h2 class="scroll-m-20 pb-2 text-3xl font-bold tracking-tight"></h2> -->
 					<p class="text-lg leading-7 [&:not(:first-child)]:mt-6">
 						Sa unang tingin, tila magandang mungkahi ang JMP dahil pinagbubuti nito ang kapakanan ng mga pasahero at ginagawang mas organisado ang pamamahala ng dyip, gayunpaman, maraming tsuper ang tumutol sa pag-implementa nito.
 Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang maaapektuhan ng programang ito, ang mga tsuper at operator. Imbis na makatulong, makasasagabal at mailalagay sa panganib ang kabuhayan ng mga drayber kung agarang iangkop ang JMP. 
@@ -230,7 +239,7 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
 					Isa sa mga pangunahin at pinakamatagal na hinaing ng mga tsuper ay ang hindi abot-kayang presyo ng bagong modelong jeepney. Kung kaya’t nagdisenyo ang mga local manufacturers tulad ng Francisco Motors ng bagong modelo ng jeepney na higit na mas mura sa presyong Php985,000 kumpara sa idineklarang Php2.8 milyon na presyo ng mga imported modern jeepney units. Ang mga lokal na bagong modelong jeepney na ito ay kahawig ng itsura ng mga tradisyonal na dyip, maka-kalikasan dahil gumagamit ito ng elektrisidad, komportable dahil may aircon, mayroon ding daanan para sa mga pasaherong naka-wheelchair. Bukod pa rito ay Php50,000 lang ang kinakailangang downpayment na may 0% interes na higit na makakatulong sa mga tsuper at operator na namomoblema sa pambayad.
 				</p>
 				<p class="text-lg">
-					Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-exend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper.
+					Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-extend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper.
 				</p>
 				<p class="text-lg">
 
@@ -252,11 +261,24 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
 			<img src={wheel} alt="cartoon wheel spinning" class="w-1/2 animate-spin-slow"> 
 		</div>
 		<div class="flex-grow h-[100%] w-[80%]">
-			<div class=" p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl">
-				<h3>Madalas nating marinig na</h3>
-				<strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong>
-				<h3>Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, sila ang tagapagmaneho ng byaheng patungo sa inaasam na modernisasyon.</h3>
+			<div class=" p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl flex flex-col gap-2">
+				<p class="text-lg">Madalas nating marinig na</p>
+				<p class="text-3xl text-blue-600"><strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong></p>
+				<p class="text-lg"> Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u> sila ang tagapagmaneho ng byaheng patungo sa inaasam na modernisasyon.</u>	
+				</p>
 			</div>
 		</div>
 	</section>
+	<footer>
+		<div>
+			<p class="text-center text-2xl">Suportahan ang ating mga Tsuper sa pamamagitan ng:</p>
+		</div>
+		<div class="flex justify-center items-center gap-10 mb-20">
+			<a target="_blank" href="https://www.facebook.com/pistonphl" class="text-2xl hover:underline text-blue-500">FOLLOW PISTON'S FB PAGE</a>
+			<a target="_blank" href="https://donate.pistonph.com" class="text-2xl  text-blue-500 hover:underline">DONATE TO PISTON </a>
+		</div>
+		<div>
+			<p class="bg-blue-600 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
+		</div>
+	</footer>
 </main>
