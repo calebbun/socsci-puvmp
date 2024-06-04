@@ -49,12 +49,12 @@
 		background: linear-gradient(90deg, #fff, #fff 50%, transparent 50%, transparent 100%);
 		background-size: 50px;
 		animation: animate_road 1s linear infinite;
-		z-index: -2;
+		z-index: -1;
 	}	
 
 	.jeep{
-		animation: animate_jeep 7s linear infinite;
-		z-index: -1;
+		animation: animate_jeep 9s linear infinite;
+		z-index: 1;
 	}
 
 	@keyframes animate_road
@@ -68,7 +68,7 @@
 	}
 	@keyframes animate_jeep {
 	0% {
-        transform: translateX(-700%) translateY(0);
+        transform: translateX(-1100%) translateY(0);
     }
     25% {
         transform: translateX(-233%) translateY(30%);
@@ -80,7 +80,7 @@
         transform: translateX(233%) translateY(-30%);
     }
     100% {
-        transform: translateX(700%) translateY(0);
+        transform: translateX(1100%) translateY(0);
     }
 }
 	
