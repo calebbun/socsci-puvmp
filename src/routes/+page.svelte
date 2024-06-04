@@ -97,14 +97,14 @@
 
 <main>
     <section
-    class="relative w-full h-[30vh] "
+    class="relative w-full "
 	>
         <video class= "absolute w-full h-full object-cover -z-10"muted autoplay loop playsinline disablepictureinpicture>
             <source src="baguiodrive.mp4" type="video/mp4" />
         </video>
             
         <div
-			class="shadowed-text min-h-screen-minus-navbar mx-auto flex max-w-6xl flex-col items-center justify-center gap-2 py-16 pt-12 text-center"
+			class="shadowed-text min-h-screen-minus-navbar mx-auto flex max-w-6xl flex-col items-center justify-center gap-2 py-16 pt-12 text-center pb-0"
 		>
 			<h1 class="text-blue-500 leading-1.1 text-3xl font-bold tracking-tighter drop-shadow-xl sm:text-6xl">
 				#Jeepney<span class="decoration-red-800 text-white text-muted line-through decoration-destructive decoration-wavy"
@@ -223,7 +223,7 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
             </div>
         </div>
 	</section>
-    <section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 py-20 md:grid md:h-screen md:gap-16">
+    <section class="pb-10 mb-[1px] mx-auto flex min-h-full max-w-6xl items-center gap-8 px-4 py-20 md:grid md:min-h-screen md:gap-16">
         <div class="p-2 flex flex-col gap-2">
             <h1
 				class= "text-4xl tracking-tight text-blue-500 drop-shadow-lg dark:text-orange-500">
@@ -248,37 +248,36 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
 			</div>
         </div>
     </section>
-	<section class="mt-10">
-		<div class="relative overflow-hidden h-[6vh] flex justify-center items-center bg-[#355463]">
-			<div class="absolute h-[3vh] w-[10vh] jeep ">
-				<img src={jeepmove} alt="jeep design side view"> 
-			</div>
-			<div class="road"></div>
-		</div>
-	</section>
-	<section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 py-20 ">
-		<div class="w-[40vh] flex flex-shrink-0 justify-center align-center">
-			<img src={wheel} alt="cartoon wheel spinning" class="w-1/2 animate-spin-slow"> 
-		</div>
-		<div class="flex-grow h-[100%] w-[80%]">
-			<div class=" p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl flex flex-col gap-2">
-				<p class="text-lg">Madalas nating marinig na</p>
-				<p class="text-3xl text-blue-600"><strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong></p>
-				<p class="text-lg"> Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u> sila ang tagapagmaneho ng byaheng patungo sa inaasam na modernisasyon.</u>	
-				</p>
-			</div>
-		</div>
+	
+
+    <section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 pb-6">
+        <div class="w-[40vh] flex flex-shrink-0 justify-center align-center">
+            <img src={wheel} alt="cartoon wheel spinning" class="w-3/4 animate-spin-slow"> 
+        </div>
+        <div class="flex-grow h-[100%] w-[80%]">
+            <div class="p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl flex flex-col gap-2">
+                <p class="text-lg">Madalas nating marinig na</p>
+                <p class="text-3xl text-blue-600"><strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong></p>
+                <p class="text-lg">Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, <u>sila ang tagapagmaneho ng byaheng patungo sa inaasam na modernisasyon.</u></p>
+            </div>
+        </div>
 	</section>
 	<footer>
-		<div>
-			<p class="text-center text-2xl">Suportahan ang ating mga Tsuper sa pamamagitan ng:</p>
-		</div>
-		<div class="flex justify-center items-center gap-10 mb-20">
-			<a target="_blank" href="https://www.facebook.com/pistonphl" class="text-2xl hover:underline text-blue-500">FOLLOW PISTON'S FB PAGE</a>
-			<a target="_blank" href="https://donate.pistonph.com" class="text-2xl  text-blue-500 hover:underline">DONATE TO PISTON </a>
-		</div>
-		<div>
-			<p class="bg-blue-600 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
-		</div>
-	</footer>
+        <div>
+            <p class="text-center text-2xl">Suportahan ang ating mga Tsuper sa pamamagitan ng:</p>
+        </div>
+        <div class="flex justify-center items-center gap-10 mb-10">
+            <a target="_blank" href="https://www.facebook.com/pistonphl" class="text-2xl hover:underline text-blue-500">FOLLOW PISTON'S FB PAGE</a>
+            <a target="_blank" href="https://donate.pistonph.com" class="text-2xl text-blue-500 hover:underline">DONATE TO PISTON</a>
+        </div>
+        <div>
+            <p class="bg-blue-600 text-center text-xl text-white">#LabanNgTsuperLabanNgKomyuter #NoToJeepneyPhaseout</p>
+        </div>
+		<div class="relative overflow-hidden min-h-[6vh] flex justify-center items-center bg-[#355463]">
+            <div class="absolute h-[3vh] w-[10vh] jeep ">
+                <img src={jeepmove} alt="jeep design side view"> 
+            </div>
+            <div class="road"></div>
+        </div>
+    </footer>
 </main>
