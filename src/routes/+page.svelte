@@ -49,12 +49,12 @@
 		background: linear-gradient(90deg, #fff, #fff 50%, transparent 50%, transparent 100%);
 		background-size: 50px;
 		animation: animate_road 1s linear infinite;
-		z-index: 1;
+		z-index: -2;
 	}	
 
 	.jeep{
 		animation: animate_jeep 7s linear infinite;
-		z-index: 2;
+		z-index: -1;
 	}
 
 	@keyframes animate_road
