@@ -72,6 +72,10 @@ const config = {
           "radial-gradient(circle at bottom, var(--tw-gradient-stops))",
         jeep2: "url('/src/lib/assets/jeep2.jpg')",
         jeep3: "url('/src/lib/assets/jeep3.png')",
+        road: "url('/src/lib/assets/road.svg')",
+      },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
       },
     },
   },

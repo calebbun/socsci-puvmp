@@ -1,6 +1,8 @@
 <script global>
     import '../global.css'
     import jeep1 from '$lib/assets/jeep1.jpg';
+	import jeepmove from '$lib/assets/jeepmove.png';
+	import wheel from '$lib/assets/wheel.png';
     import * as HoverCard from '$lib/components/ui/hover-card/index.ts';
 	import * as Dialog from '$lib/components/ui/dialog/index.ts';
 </script>
@@ -26,6 +28,62 @@
         /* to change the blur effect edit the number below in your code*/
         filter:blur(4px);
     }
+	*
+	{
+		box-sizing: border-box;
+	}
+	.road{
+		position: relative;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform-style: preserve-3d;
+	}
+
+	.road::before{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 4px;
+		background: linear-gradient(90deg, #fff, #fff 50%, transparent 50%, transparent 100%);
+		background-size: 50px;
+		animation: animate_road 1s linear infinite;
+		z-index: 1;
+	}	
+
+	.jeep{
+		animation: animate_jeep 7s linear infinite;
+		z-index: 2;
+	}
+
+	@keyframes animate_road
+	{
+		0%{
+			background-position: 50px 0;
+		}
+		100%{
+			background-position: 0px 0;
+		}
+	}
+	@keyframes animate_jeep {
+	0% {
+        transform: translateX(-700%) translateY(0);
+    }
+    25% {
+        transform: translateX(-233%) translateY(30%);
+    }
+    50% {
+        transform: translateX(0%) translateY(0);
+    }
+    75% {
+        transform: translateX(233%) translateY(-30%);
+    }
+    100% {
+        transform: translateX(700%) translateY(0);
+    }
+}
+	
 </style>
 
 <main>
@@ -54,13 +112,23 @@
 				Op-Ed ni Caleb Bunye
 			</p>
         </div>
+		
     </section>
+	<section>
+		<div class="relative overflow-hidden h-[6vh] flex justify-center items-center bg-[#355463]">
+			<div class="absolute h-[3vh] w-[10vh] jeep ">
+				<img src={jeepmove} alt="jeep design side view"> 
+			</div>
+			<div class="road"></div>
+		</div>
+	</section>
     <section
-		class="mx-auto flex h-screen flex-col items-center justify-center gap-2 py-20 text-center"
-	>
+		class="relative mt-0 pt-8 mx-auto flex h-screen flex-col items-center justify-center gap-2 py-20 text-center">
+	
 		<div
-			class="absolute z-10 h-screen-minus-navbar w-full bg-jeep2 bg-cover bg-center opacity-30 blur-sm"
-		></div>
+			class="absolute z-10 h-screen-minus-navbar w-full bg-jeep2 bg-cover bg-center opacity-30 blur-sm">
+			<div></div>
+		</div>
 
 		<p
 			class="text-justify z-20 mx-16 max-w-[850px] text-2xl font-medium leading-tight hover:drop-shadow-2xl md:text-3xl [&:not(:first-child)]:mt-6"
@@ -69,7 +137,7 @@
 
 			<span
 				class="font-bold underline decoration-primary/80 decoration-4 duration-200 ease-in hover:text-primary hover:decoration-transparent"
-				>Public Utility Vehicle  Modernization Program o PUVMP (LTFRB).
+				>Public Utility Vehicle  Modernization Program o PUVMP (LTFRB)
             </span>
 		</p>
 	</section>
@@ -147,14 +215,48 @@ Sa kadahilanan na hindi nasasaalang-alang ng pamahalaan ang kapakanan ng unang m
         </div>
 	</section>
     <section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 py-20 md:grid md:h-screen md:gap-16">
-        <div>
+        <div class="p-2 flex flex-col gap-2">
             <h1
-				class= "font-jeep text-5xl tracking-tight text-blue-500 drop-shadow-lg dark:text-orange-500">
+				class= "text-4xl tracking-tight text-blue-500 drop-shadow-lg dark:text-orange-500">
                 Tunay na epektibo ang mga nagdaang tigil-pasada dahil ...
             </h1>
-            <h2> sample </h2>
-            <p>dslhfidh</p>
+            <div class="flex flex-col p-5 bg-secondary rounded-lg gap-4">
+				<p class="text-lg">Maraming naging makabuluhang epekto ang mga naisagawang tigil pasada/ transport strike sa pampublikong diskurso pati na rin sa pagsasaayos at pagrebisa ng mga polisiya ng programang JMP. Isa na rito ay ang pagbibigay ng palugit sa mga tsuper para sa konsolidasyon ng prangkisa o franchise consolidation, isa sa mga pangunahing hakbang upang maisakatuparan ang programang JMP. Sa tulong ng mga tigil pasada/ transport strike ay naihayag ng mga tsuper ang kanilang hinaing ukol sa napakamahal na presyo ng isang modern jeepney unit na nagkakahalagang humigit-kumulang Php2.8 milyon, at ng mga dagdag na bayarin na kailangan upang makasali sa isang kooperatiba. Mula nang idineklara ang JMP noong 2017 ay nagkaroon na ng walong (8) beses na extension upang makasunod ang mga tsuper sa franchise consolidation at upang mabigyan ng dagdag oras ang gobyerno na higit na masuri ang mga kasalukuyang alituntunin ng JMP.
+				</p>
+				<p class="text-lg">
+					Dinagdagan din ng Department of Transportation (DOTr) ang ibibigay na equity subsidy para sa mga tsuper at operators na bahagi ng isang kooperatiba upang magsilbing loan sa pagbili ng bagong modelong jeepney. Mula sa Php80,000 para sa isang modern PUV (mPUV) classes 1-4 noong 2018 ay itinaas na sa Php210,000 para sa class 1 at Php280,000 para sa classes 2-4 noong 2023 ang subsidiyang inaalok bilang suporta sa mga tsuper at operators sa nakikilahok sa PUVMP.
+				</p>
+				<p class="text-lg">
+					Isa sa mga pangunahin at pinakamatagal na hinaing ng mga tsuper ay ang hindi abot-kayang presyo ng bagong modelong jeepney. Kung kaya’t nagdisenyo ang mga local manufacturers tulad ng Francisco Motors ng bagong modelo ng jeepney na higit na mas mura sa presyong Php985,000 kumpara sa idineklarang Php2.8 milyon na presyo ng mga imported modern jeepney units. Ang mga lokal na bagong modelong jeepney na ito ay kahawig ng itsura ng mga tradisyonal na dyip, maka-kalikasan dahil gumagamit ito ng elektrisidad, komportable dahil may aircon, mayroon ding daanan para sa mga pasaherong naka-wheelchair. Bukod pa rito ay Php50,000 lang ang kinakailangang downpayment na may 0% interes na higit na makakatulong sa mga tsuper at operator na namomoblema sa pambayad.
+				</p>
+				<p class="text-lg">
+					Bilang konklusyon, makikita na ang tigil pasada/ transport strikes ay epektibong paraan upang makarating ang hinaing ng mga tsuper at operator sa mga tagagawa ng polisiya. Ilan lamang sa mga naging mabuting resulta nito ay ang pag-exend ng franchise consolidation deadline, pagtaas ng ibibigay na equity subsidy, at pagkakaroon ng lokal at mas murang bagong modelong jeepney. Bilang isang indibidwal ay maaari rin tayong makilahok sa mga ito at makiisa sa panawagan ng mga tsuper.
+				</p>
+				<p class="text-lg">
+
+				</p>
+				
+			</div>
         </div>
     </section>
-
+	<section class="mt-10">
+		<div class="relative overflow-hidden h-[6vh] flex justify-center items-center bg-[#355463]">
+			<div class="absolute h-[3vh] w-[10vh] jeep ">
+				<img src={jeepmove} alt="jeep design side view"> 
+			</div>
+			<div class="road"></div>
+		</div>
+	</section>
+	<section class="mx-auto flex h-full max-w-6xl items-center gap-8 px-4 py-20 ">
+		<div class="w-[40vh] flex flex-shrink-0 justify-center align-center">
+			<img src={wheel} alt="cartoon wheel spinning" class="w-1/2 animate-spin-slow"> 
+		</div>
+		<div class="flex-grow h-[100%] w-[80%]">
+			<div class=" p-4 bg-secondary rounded-lg duration-100 ease-in hover:bg-primary hover:text-white hover:shadow-2xl">
+				<h3>Madalas nating marinig na</h3>
+				<strong>“Ang buhay ay parang gulong minsan nasa taas minsan nasa baba.”</strong>
+				<h3>Ngunit tila laging nasa ibaba ang mga tsuper dahil sa di makatarungang pag-implementa ng Jeepney Modernization Program. Parte sila ng byahe, sila ang tagapagmaneho ng byaheng patungo sa inaasam na modernisasyon.</h3>
+			</div>
+		</div>
+	</section>
 </main>
