@@ -101,45 +101,36 @@
 
 <main>
     <section
-    class="relative w-full h-[screen/3]"
+    class="relative w-full h-[33.33vh] overflow-hidden"
 	>
-        <video class= "absolute w-full h-full object-cover -z-10"muted autoplay loop playsinline disablepictureinpicture>
+        <video class= "absolute size-full object-cover -z-10" muted autoplay loop playsinline disablepictureinpicture>
             <source src="baguiodrive.mp4" type="video/mp4" />
         </video>
             
         <div
-			class="shadowed-text min-h-screen-minus-navbar mx-auto flex max-w-6xl flex-col items-center justify-center gap-2 py-16 pt-12 text-center pb-0"
+			class="shadowed-text content-center item-center pt-[10vh] mx-auto flex max-w-6xl flex-col  gap-2 text-center pb-0"
 		>
-			<h1 class="text-blue-500 leading-1.1 text-3xl font-bold tracking-tighter drop-shadow-xl sm:text-6xl">
-				#Jeepney<span class="decoration-red-800 text-white text-muted line-through decoration-destructive decoration-wavy"
-					>Moder</span
-				>N<span class="decoration-red-800 text-muted line-through decoration-destructive decoration-wavy text-white">iz</span
-				>ation
-			</h1>
 			<h1
-				class="text-blue-500 leading-1.1 text-2xl font-bold tracking-tighter  drop-shadow-lg sm:text-5xl"
+				class="text-blue-500 leading-1.1 text-3xl font-bold tracking-tighter  drop-shadow-lg sm:text-6xl"
 			>
 				Gumagana ang Tigil-Pasada.
 			</h1>
-			<p class="max-w-[350px ]text-sm mb-6 font-bold sm:max-w-[750px] text-white sm:text-lg">
+			<p class=" text-sm mb-6 font-bold  text-white sm:text-lg">
 				Op-Ed ni Caleb Bunye
 			</p>
         </div>
-		
-    </section>
-	<section>
-		<div class="relative overflow-hidden h-[6vh] flex justify-center items-center bg-[#355463]">
+		<div class="absolute bottom-0 overflow-hidden h-[6vh] flex justify-center items-center bg-[#355463]">
 			<div class="absolute h-[3vh] w-[10vh] jeep ">
 				<img src={jeepmove} alt="jeep design side view"> 
 			</div>
 			<div class="road"></div>
 		</div>
-	</section>
+    </section>
     <section
-		class="relative mt-0 pt-8 mx-auto flex h-screen flex-col items-center justify-center gap-2 py-20 text-center">
+		class="relative mt-0 h-[66.67vh] pt-1 mx-auto flex  flex-col items-center justify-center gap-2 py-5 text-center overflow-hidden">
 	
 		<div
-			class="absolute z-10 h-screen-minus-navbar w-full bg-jeep2 bg-cover bg-center opacity-30 blur-sm">
+			class="absolute z-10 h-full w-full bg-jeep2 bg-cover bg-center opacity-30 blur-sm">
 			<div></div>
 		</div>
 
