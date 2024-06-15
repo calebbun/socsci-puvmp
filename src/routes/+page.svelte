@@ -1,6 +1,6 @@
 <script global>
     import '../global.css'
-    import jeep1 from '$lib/assets/jeep1.jpg';
+    import jeep1 from '$lib/assets/jeep1.png';
 	import jeepmove from '$lib/assets/jeepmove.png';
 	import wheel from '$lib/assets/wheel.png';
 	import sun from '$lib/assets/sun.png';
